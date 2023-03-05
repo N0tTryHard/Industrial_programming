@@ -2,8 +2,8 @@
 // Created by Господин on 05.03.2023.
 //
 
-#include <iostream>
-#include <cmath>
+#include "iostream"
+#include "cmath"
 #include "eq2.h"
 
 
