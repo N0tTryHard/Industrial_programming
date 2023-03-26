@@ -5,16 +5,16 @@
 
 
 int main() {
-    //Тихий океан
-    Ocean ocean1("Pacific", 11022, 165200000);
+    //Северный Ледовитый океан
+    Ocean ocean1("Arctic", 5527, 14060000);
     std::cout << ocean1 << '\n';
 
-    //Охотское море
-    Sea sea1("Okhotskoe", 3372, 1583000, &ocean1);
+    //Море Лаптевых
+    Sea sea1("Laptev", 3385, 662000, &ocean1);
     std::cout << sea1 << '\n';
 
-    //залив Шелихова
-    Bay bay1("Shelikhov", 350, 130000, &sea1);
+    //Бухта Тикси
+    Bay bay1("Tiksi", 11, NULL, &sea1);
     std::cout << bay1 << '\n';
 
     //Внутреннее море
